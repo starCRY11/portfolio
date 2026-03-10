@@ -1,0 +1,47 @@
+body, html{
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#top_section{
+
+    padding: 0;
+    margin: 0;
+    background-image: url("../images/hero_sec.jpg");
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.grid-container{
+    color: aliceblue;
+    display: grid;
+    grid-template-columns: 18% 30% 1fr 1fr 1fr 1fr;
+    grid-template-rows: 5% 1fr 1fr 1fr 1fr 1fr;
+    height: 100%;
+}
+h1, p{
+    margin: 0;
+
+}
+
+.grid-item-1{
+    display: flex;
+    grid-area: 3/2/4/3;
+    font-size: 3rem;
+    align-items: end;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.grid-item-2{
+    
+    display: flex;
+    grid-area: 4/2/5/3;
+    font-size: 3rem;
+    align-items: start;
+
+}
+hr{
+    border: none;
+    height: 0.1px;
+}
